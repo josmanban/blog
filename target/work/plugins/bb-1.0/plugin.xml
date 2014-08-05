@@ -1,0 +1,27 @@
+<plugin name='bb' version='1.0' grailsVersion='2.0.0 &gt; *'>
+  <author>Vitalii Samolovskikh aka Kefir</author>
+  <authorEmail>kefir@perm.ru</authorEmail>
+  <title>Grails BB-Codes plugin</title>
+  <description>\
+The plugin supports text processing with KefirBB. KefirBB allows to create flexible configurations for different
+text translations. For example, BB-to-HTML or HTML filtration.
+</description>
+  <documentation>http://kefirsf.org/kefirbb/</documentation>
+  <type>BbGrailsPlugin</type>
+  <resources>
+    <resource>grails.plugin.bb.BbService</resource>
+    <resource>grails.plugin.bb.BbTagLib</resource>
+  </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies>
+    <compile>
+      <dependency group='org.kefirsf' name='kefirbb' version='1.0' />
+    </compile>
+  </dependencies>
+  <plugins />
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>
