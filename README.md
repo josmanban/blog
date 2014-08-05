@@ -1,4 +1,5 @@
 blog
 ====
 
-blog simple, practica grails
+Blog simple, practica grails
+
