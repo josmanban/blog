@@ -1,5 +1,5 @@
 blog
 ====
 
-Blog simple, practica grails
+Blog simple, practica de Groovy+Grails
 
